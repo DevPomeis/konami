@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    transform: scale(3);
+    text-align: center;
+}
+
+a {
+    color: green;
+    padding: 0.25rem 0.5rem;
+    background-color: white;
+    border-radius: 0.1rem;
+    text-decoration: none;
+    display: none;
+    transform: scale(3);
+}
