@@ -1,2 +1,1 @@
-# KONAMI 
-TES
+# KONAMI
