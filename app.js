@@ -26,7 +26,7 @@ document.querySelector('a').addEventListener( 'click', event => {
     event.preventDefault();
     n = 0;
     document.body.addEventListener( 'keydown', konami);
-    div.innerHTML = "Enter the konami code"+"<span id='percent'>0</span>%";
+    div.innerHTML = "Enter the konami code<br>"+"<span id='percent'>0</span>%";
     bg.style.background = "black";
     button.style.display = "none";
 });
